@@ -1,0 +1,107 @@
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left:220px ;
+    margin-top:10px;
+}
+.focus{
+    float: left;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+}
+.newsflash{
+    float: right;
+    width: 256px;
+    height: 455px;
+}
+.news{
+    height: 165px;
+    border:1px solid #E4E4E4;
+}
+.news-hd{
+    height: 33px;
+    line-height: 33px;
+    border-bottom:1px dotted #E4E4E4;
+    padding: 0 15px;
+}
+.news-hd  h5{
+    float: left;
+    font-size: 14px;
+}
+.news-hd  .more{
+    float: right;
+}
+.news-hd  .more::after{
+    content: '\e920';
+    font-family:'icomoon' ;
+}
+.news-bd {
+    padding: 5px 15px 0;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+.lifeservice{
+    overflow: hidden;
+    height: 209px;
+    border:1px solid #E4E4E4;
+    border-top: 0;
+}
+.lifeservice ul{
+    width: 257px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 64px;
+    height: 71px;
+    border-right: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    text-align: center;
+}
+.lifeservice  ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+}
+.lifeservice01{
+    background:url("../images/icons.png") no-repeat -19px -15px;
+}
+.lifeservice02{
+    background:url("../images/icons.png") no-repeat -79px -16px;
+}
+.lifeservice03{
+    background:url("../images/icons.png") no-repeat -142px -15px;
+}
+.lifeservice04{
+    background:url("../images/icons.png") no-repeat -206px -15px;
+}
+.lifeservice05{
+    background:url("../images/icons.png") no-repeat -19px -88px;
+}
+.lifeservice06{
+    background:url("../images/icons.png") no-repeat -80px -88px;
+}
+.lifeservice07{
+    background:url("../images/icons.png") no-repeat -143px -88px;
+}
+.lifeservice08{
+    background:url("../images/icons.png") no-repeat -208px -88px;
+}
+.lifeservice09{
+    background:url("../images/icons.png") no-repeat -19px -159px;
+}
+.lifeservice10{
+    background:url("../images/icons.png") no-repeat -78px -159px;
+}
+.lifeservice11{
+    background:url("../images/icons.png") no-repeat -142px -155px;
+}
+.lifeservice12{
+    background:url("../images/icons.png") no-repeat -209px -159px;
+}
+.bargain{
+    margin-top: 5px;
+}

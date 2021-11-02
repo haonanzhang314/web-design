@@ -1,0 +1,62 @@
+.w{
+    width: 1200px;
+    margin:0 auto;
+}
+.header{
+    position: relative;
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+    margin-bottom: 20px;
+}
+.logo{
+    position: absolute;
+    top:18px;
+    left:5px;
+}
+/*主体区域*/
+.registerarea{
+    height: 522px;
+    border: 1px solid #cccccc;
+}
+.registerarea h3{
+    height: 42px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding:0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login{
+    float: right;
+    font-size: 14px;
+}
+.login a{
+    color: #b1191a;
+}
+.reg_form{
+    margin:50px auto 0;
+    width: 600px;
+}
+.reg_form ul li  label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li input{
+    width: 242px;
+    height: 37px;
+    border:1px solid #ccc;
+}
+.error{
+
+    color: #b1191a;
+}
+.error_icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background:url("../images/error.png");
+    margin-top: -2px;
+}
