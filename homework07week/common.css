@@ -1,0 +1,98 @@
+/* 把我们所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0;
+    /*css3盒子模型*/
+    box-sizing:border-box;
+}
+/* em 和 i 斜体的文字不倾斜 */
+em,
+i {
+    font-style: normal
+}
+/* 去掉li 的小圆点 */
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #00D546;
+}
+
+button,
+input {
+    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /*默认有黑色边框我们需要手动去掉*/
+    border:0;
+    outline: none;
+}
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+.w{
+    width: 1200px;
+    margin:0 auto;
+    background-color: #F3F6F7;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 500px;
+    font-size: 32px;
+}
+.nav{
+    height: 43px;
+    border-top: 3px solid #00D546;
+    border-bottom: 3px solid #00D546;
+}
+.nav ul{
+    margin-left: 315px;
+}
+.nav ul li {
+    float: left;
+    font-size: 24px ;
+    margin-left: 40px; //此处根据内容细调
+}
+.photo{
+    margin-left: 200px;
+}
+.photo img{
+    height: 480px;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.word{
+    margin-left: 200px;
+    width: 800px;
+}
+.word ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.word1{
+    color: red;
+}
